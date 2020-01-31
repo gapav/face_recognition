@@ -1,31 +1,24 @@
-# Assignment 4
+# Assignment 4 from IN3110
 
 ## Installation
-Neccasasry packages to be installed:
 
-1.
-
-From the dir of this program:
-
-```bash
-pip install .
-```
-
-or
+### With conda:
+ 
+Make sure that you are in the directory with the face_recog.yml
 
 ```bash
-pip3 install .
+$ conda env create -f face_recog.yml
+```
+```bash
+$ conda activate face_recog
 ```
 
-2.
+When done, deactive enviroment with:
+
 ```bash
-python -m pip install numpy opencv -python
+$ conda deactivate
 ```
 
-3.
-```bash
-conda install numba
-```
 
 ## Usage
 
@@ -34,7 +27,7 @@ conda install numba
 There are severeal ways to run the program. To get instructions how to run the image blurrer from command line:
 
 ```bash
-python3 blur.py --help
+python blur.py --help
 ```
 
 ## FACE BLURRER:
@@ -48,4 +41,3 @@ Testing trough the testing framework pytest from command line:
 ```bash
 pytest
 ```
-# face_recognition
