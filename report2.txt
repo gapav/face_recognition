@@ -1,0 +1,16 @@
+Runtime for blur_1: 5.011693954467773
+Runtime for blur_1: 4.989706993103027
+Runtime for blur_1: 5.405740261077881
+Runtime for blur_1: 5.224411964416504
+Runtime for blur_1: 5.5306620597839355
+
+
+Runtime for blur_2: 0.0320439338684082
+Runtime for blur_2: 0.0298309326171875
+Runtime for blur_2: 0.02968287467956543
+Runtime for blur_2: 0.029090166091918945
+Runtime for blur_2: 0.028976917266845703
+
+
+
+The Vectorized function is about 17 times as fast as the pure pythonic function. 

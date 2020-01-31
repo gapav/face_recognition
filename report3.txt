@@ -1,0 +1,20 @@
+Runtime for blur_1: 5.011693954467773
+Runtime for blur_1: 4.989706993103027
+Runtime for blur_1: 5.405740261077881
+Runtime for blur_1: 5.224411964416504
+Runtime for blur_1: 5.5306620597839355
+
+
+Runtime for blur_3: 0.5310747623443604
+Runtime for blur_3: 0.5421380996704102
+Runtime for blur_3: 0.5302321910858154
+Runtime for blur_3: 0.5509359836578369
+Runtime for blur_3: 0.5814149379730225
+
+The Nubma decorated function is about 10 times as fast as pure python.
+
+why not numba?
+- still under devolpment
+- even though blurred image was produced with decorated python function,
+i recieved errors that was hard to debug.
+- has to be installed externally.
