@@ -1,5 +1,7 @@
 # Assignment 4 from IN3110
 
+This program uses image processing techniques to blur images. Additionally, faces will(hopefully) be recognized with the help from OpenCV CascadeClassifier.
+
 ## Installation
 
 ### With conda:
